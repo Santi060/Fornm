@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>formulario</title>
+  <link rel="stylesheet" href="San.css">
+</head>
+<body>
+  <form>
+    <h1 class="titulo">Datos Personales</h1>
+    <table>
+      <tr>
+        <td>Nombre</td>
+        <td>
+          <input type="text" id="nombre" name="nombre" placeholder="Juan">
+        </td>
+      </tr>
+      <tr>
+        <td>Apellido</td>
+        <td>
+          <input type="text" id="apellido" name="apellido" placeholder="Pérez">
+        </td>
+      </tr>
+      <tr>
+        <td>Cédula</td>
+        <td><input type="number" id="ci" name="ci" placeholder="00.000.000"</td>
+      <tr>
+          <td>Teléfono</td>
+          <td><input type="number" id="tlf" name="tlf" placeholder="(0000)0000000"</td>
+      </tr>
+      </tr>
+          <tr>
+            <td>Fecha de Nacimiento</td>
+            <td><input type="date" id="Fn" name="Fn" ></td>
+          </tr>
+            <tr>
+              <td>Sexo</td>
+              <td>
+                F<input type="radio" id="S" name="S" checked>
+                M<input type="radio" id="S" name="S">
+                
+              </td>
+            </tr>
+             <tr>
+            <td>Correo</td>
+            <td><input type="email" id="email" name="email" placeholder="example@example.com" ></td>
+          </tr>
+           <tr>
+              <td>estado</td>
+              <td> <select id="estado" name="estado"> 
+                 <option value="guárico"> guárico</option>
+                 <option value="aragua"> aragua</option>
+                 <option value="amazonas"> amazonas</option>
+                 <option value="mérida"> mérida</option>
+                 <option value="apure"> apure</option>
+              </select> </td>
+           </tr>
+            
+            
+    </table>
+    <h1 class="titulo">Datos de Vacunas</h1>
+     <table>
+        <tr>
+           <td>Covid</td><td><input type="checkbox" id="v1" name="v1"></td>
+       </tr>
+<tr>
+           <td>Covid d2</td><td><input type="checkbox" id="v12" name="v12"></td>
+       </tr>
+<tr>
+           <td>Antitetanica</td><td><input type="checkbox" id="v2" name="v2"></td>
+       </tr>
+<tr>
+           <td>Hepatitis A</td><td><input type="checkbox" id="v3" name="v3"></td>
+       </tr>
+<tr>
+           <td>Hepatitis B</td><td><input type="checkbox" id="v4" name="v4"></td>
+       </tr>
+<tr>
+           <td>rabia</td><td><input type="checkbox" id="v5" name="v5"></td>
+       </tr>
+<tr>
+           <td>Influenza</td><td><input type="checkbox" id="v6" name="v6"></td>
+       </tr>
+<tr>
+           <td>antiamarilica</td><td><input type="checkbox" id="v7" name="v7"></td>
+       </tr>
+<tr>
+           <td>Gripe</td><td><input type="checkbox" id="v8" name="v8">
+       </tr>
+
+     </table>
+          
+          <h3></h3> 
+      <td><input class="guardar" type="submit" id="submit" name="submit" value="Guardar"></td>
+      <td><input class="Eliminar" type="reset" id="reset" name="reset" value="Eliminar"></td>
+            
+  </form>
+</body>
+</html>

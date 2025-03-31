@@ -1,0 +1,46 @@
+body {
+  background-image: url('awa.jpg');
+  font-family: Georgia, 'Times New Roman', serif;
+  margin: 50px auto; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
+  text-align: center;
+  border-radius: 20px;
+}
+input{
+  border-radius: 15px;
+}
+
+table {
+  margin: auto;
+}
+.titulo{
+  color: black;
+  box-shadow: 20px;
+}
+td {
+  background-color: white;
+  box-shadow: 2px 2px 5px;
+  border-radius: 15px;
+}
+
+.guardar {
+  background-color: lightgreen;
+  color: black;
+}
+
+.Eliminar { 
+  background-color: lightcoral;
+  color: black;
+}
+
+.vacuna{
+  font-size: 12px;
+}
+
+form {
+  width: 300px;
+  margin: 50px auto;
+ background-image: url('sed.jpg');
+  padding: 20px;
+  border-radius: 10px;
+}
